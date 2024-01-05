@@ -1,0 +1,18 @@
+object Versions {
+    const val detekt = "1.23.3"
+    const val gradleVersionsPlugin = "0.50.0"
+    const val compose = "1.5.4"
+    const val activityCompose = "1.8.1"
+    const val navigation = "2.7.5"
+    const val coreKtx = "1.12.0"
+    const val koin = "3.5.0"
+    const val ktor = "2.3.6"
+    const val serialization = "1.6.1"
+    const val coroutines = "1.7.3"
+    const val kermit = "2.0.2"
+    const val kotlin = "1.9.20"
+    const val lifecycle = "2.6.2"
+    const val googleMlKit = "17.0.2"
+    const val junit = "4.13.2"
+    const val mockk = "1.13.8"
+}

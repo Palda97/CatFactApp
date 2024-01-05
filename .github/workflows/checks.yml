@@ -1,0 +1,35 @@
+name: Checks
+
+on:
+#  push:
+#    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+
+      - name: Execute Detekt
+        run: ./gradlew detekt
+
+      - name: Execute Lint
+        run: ./gradlew lintRelease
+
+      - name: Execute tests
+        run: ./gradlew testDebugUnitTest
+
+      - name: Execute release build
+        env:
+          DO_NOT_SIGN_THE_APP: true
+        run: ./gradlew assembleRelease

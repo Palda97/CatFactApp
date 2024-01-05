@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_description_error">Error</string>
+    <string name="core_error_no_connection">Internet connection unavailable</string>
+    <string name="core_error_unauthorized">Username or password is incorrect</string>
+    <string name="core_error_general">Something went wrong</string>
+    <string name="core_error_no_application_to_share">There is no app to share this with</string>
+    <string name="core_error_no_web_browser">There is no web browser to open this website in</string>
+    <string name="core_only_wifi">Only WiFi</string>
+    <string name="core_allow_cellular">Allow Cellular</string>
+    <string name="cat_fact_load_another_cat_fact">Load another cat fact</string>
+    <string name="cat_fact_description_share_cat_fact">Share cat fact</string>
+    <string name="translator_translate_with_google">Translate with Google</string>
+    <string name="translator_translated_with_google">Translated with Google</string>
+    <string name="translator_download_language_models">Download models</string>
+    <string name="translator_use_wifi_for_download">Translation models are around 30 MB big. Would you like to use only WiFi for downloading?</string>
+</resources>
