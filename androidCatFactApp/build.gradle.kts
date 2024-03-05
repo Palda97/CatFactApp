@@ -5,10 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.androidCatFactApp"
+    namespace = "cz.palda97.catfact.androidCatFactApp"
 
     defaultConfig {
-        applicationId = "cz.dpalecek.catfact.androidCatFactApp"
+        applicationId = "cz.palda97.catfact.androidCatFactApp"
     }
 
     val releasePasswordKey = "storePassword"

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.feature.catFact"
+    namespace = "cz.palda97.catfact.feature.catFact"
 }
 
 dependencies {

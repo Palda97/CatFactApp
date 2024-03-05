@@ -27,5 +27,5 @@ kotlin {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.shared.feature.catFact"
+    namespace = "cz.palda97.catfact.shared.feature.catFact"
 }

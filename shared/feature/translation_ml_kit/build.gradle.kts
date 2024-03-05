@@ -27,5 +27,5 @@ kotlin {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.shared.feature.translationMlKit"
+    namespace = "cz.palda97.catfact.shared.feature.translationMlKit"
 }

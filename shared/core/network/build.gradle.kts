@@ -36,5 +36,5 @@ kotlin {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.shared.core.network"
+    namespace = "cz.palda97.catfact.shared.core.network"
 }

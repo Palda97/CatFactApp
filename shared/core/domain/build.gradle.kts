@@ -23,5 +23,5 @@ kotlin {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.shared.core.domain"
+    namespace = "cz.palda97.catfact.shared.core.domain"
 }

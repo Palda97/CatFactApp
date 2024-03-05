@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "cz.dpalecek.catfact.core.design"
+    namespace = "cz.palda97.catfact.core.design"
 }
 
 dependencies {
