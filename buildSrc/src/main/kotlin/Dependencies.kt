@@ -97,7 +97,6 @@ object Dependencies {
     const val navigationModule = ":core:navigation"
 
     // Feature modules
-    const val navigationTestModule = ":feature:navigation_test"
     const val catFactModule = ":feature:cat_fact"
 
     // Shared
