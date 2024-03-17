@@ -34,11 +34,14 @@ fun CardCAT(
     Card(
         backgroundColor = CatFactTheme.colors.background,
         shape = RoundedCornerShape(CatFactTheme.spaces.padding2),
+        elevation = CatFactTheme.spaces.padding1,
         modifier = Modifier
-            .animateContentSize()
             .then(modifier)
     ) {
-        Row {
+        Row(
+            modifier = Modifier
+                .animateContentSize()
+        ) {
             Box(
                 modifier = Modifier
                     .padding(
